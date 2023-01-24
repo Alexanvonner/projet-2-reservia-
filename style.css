@@ -184,11 +184,13 @@ h1,h2,p,a
 {
 	border: 2px solid #F2F2F2 ;
 	border-radius: 30px;
-	margin-left: 3%;
 	display: flex;
 	height: 45px;
 	box-shadow: 0 0 3px grey ;
 	margin: 2%;
+}
+.logo1:hover{
+	background-color: #F2F2F2;
 }
 .economique
 {
@@ -198,6 +200,9 @@ h1,h2,p,a
 	color: black;
 	padding-left: 15px;
 	padding-right: 10px;
+}
+.economique:hover{
+	color: #0000ff;
 }
 .moneylogo
 {
@@ -406,7 +411,7 @@ h1,h2,p,a
 	 grid-row-end: 1;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 80%;
+	 width: 90%;
 	 height: 100%;
 
 }
@@ -417,7 +422,7 @@ h1,h2,p,a
 	 grid-row-end: 2;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 80%;
+	 width: 90%;
 	 height: 70%;
 	 margin-top: 90px;
 
@@ -441,7 +446,7 @@ h1,h2,p,a
 	 grid-row-end: 1;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 80%;
+	 width: 100%;
 	 height: 90%;
 }
 .child6
@@ -451,7 +456,7 @@ h1,h2,p,a
 	 grid-row-end: 2;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 80%;
+	 width: 100%;
 	 height: 90%;
 	 margin-top: 30px;
 
@@ -507,7 +512,6 @@ h1,h2,p,a
 /*toutes les parties du FOOTER*/
 footer
 {
-	height: 200px;
 	width: 100%;
 	border-radius: 10px 10px 10px 10px;
 	display: flex;
@@ -515,7 +519,7 @@ footer
 }
 .footer1, .footer2 , .footer3
  {
- 	margin:130px;
+ 	margin:100px;
  	margin-left: 50px;
  	margin-top: 20px;
  }
@@ -728,11 +732,6 @@ footer
 	{
 		margin:2%;
 	}
-	.container2
-	{
-		margin-left: 6%;
-		width: 90%;
-	}
 	.container1
 	{
 		max-width: none;
@@ -779,7 +778,7 @@ footer
 	 grid-row-start: 2;
 	 grid-row-end: 2;
 	 margin-top: 0%;
-	 margin-left: 22%;
+	 margin-left: 17%;
 	}
 	.child4
 	{
@@ -787,7 +786,7 @@ footer
 	 grid-column-end: 3;
 	 grid-row-start: 1;
 	 grid-row-end: 1;
-	 margin-left: 22%;
+	 margin-left: 17%;
 	}
 	.child5
 	{
@@ -828,7 +827,8 @@ footer
 @media (min-width : 1024px){
 	#container3
 	{
-		margin-left: 4%;
+		margin-left: 40px;
+	
 	}
 	.container1
 	{
@@ -846,28 +846,3 @@ footer
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
