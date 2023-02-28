@@ -13,9 +13,14 @@ a:link
 { 
  text-decoration:none; 
 } 
-#navheader a:hover
-{
-  border-top: 3px solid #0065FC;
+
+#activité:hover{
+	border-top: 3px solid #0065FC;
+
+}
+#hebergements{
+	border-top: 3px solid #0065FC;
+	color: #327bfd;
 }
 @font-face{
     font-family: "raleway";
@@ -50,11 +55,12 @@ header
 {
 	padding-left: 50px;
 	color: black;
+	border-top: 3px solid white;
 }
-#hebergements
-{
-	border-top:solid 3px #0065FC;
+#activité:hover{
+	color: #327bfd
 }
+
 #sinscrire
 {
 	font-weight: bold;
@@ -206,8 +212,8 @@ h1,h2,p,a
 }
 .moneylogo
 {
-	border: solid 3px #F2F2F2;
-	background-color: #F2F2F2;
+	border: solid 3px #deeaff;
+	background-color: #deeaff;
 	border-radius: 100px;
 	padding-top: 12px;
 	width: 40px;
@@ -438,6 +444,8 @@ h1,h2,p,a
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
      width: 80%;
+	 margin-left: 20px;
+	 
 }
 .child5
 {
@@ -446,8 +454,9 @@ h1,h2,p,a
 	 grid-row-end: 1;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 100%;
+	 width: 90%;
 	 height: 90%;
+	 margin-left: 20px;
 }
 .child6
 {
@@ -456,9 +465,10 @@ h1,h2,p,a
 	 grid-row-end: 2;
 	 box-shadow: 0px 0px 20px grey;
 	 border-radius: 20px 20px 20px 20px;
-	 width: 100%;
+	 width: 90%;
 	 height: 90%;
 	 margin-top: 30px;
+	 margin-left: 20px;
 
 }
 
@@ -718,7 +728,7 @@ footer
 }
 
 /*tablette*/
-@media (min-width :768px) and (max-width :1024px){
+@media (min-width :768px) and (max-width :991px){
 	#section1
 	{
 		flex-direction: column-reverse;
@@ -758,6 +768,7 @@ footer
 	 grid-column-end: 1;
 	 grid-row-start: 1;
 	 grid-row-end: 1;
+	 margin-left: 8%;
 	}
 	.child2
 	{
@@ -824,7 +835,7 @@ footer
 }
 
 /*Grand écran*/
-@media (min-width : 1024px){
+@media (min-width : 992px){
 	#container3
 	{
 		margin-left: 40px;
@@ -846,3 +857,28 @@ footer
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
